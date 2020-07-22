@@ -23,7 +23,7 @@ public class AnimalController {
         return "greeting";
     }
 
-    @PostMapping("/greeting")
+    @PostMapping("greeting")
     public String addGreeting(@ModelAttribute("newgreeting") MessageForm messageform, Model model)
     {
         ag.addGreetings(messageform.getAnimalName(), messageform.getAdjective());

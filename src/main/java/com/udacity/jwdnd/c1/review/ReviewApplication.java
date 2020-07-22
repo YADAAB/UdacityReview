@@ -10,7 +10,8 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 
 @SpringBootApplication
-@ComponentScan(basePackages= {"com.udacity.jwdnd.c1.review.AnimalController"})
+@ComponentScan
+//(basePackages= {"com.udacity.jwdnd.c1.review.AnimalController"})
 public class ReviewApplication {
 
 	public static void main(String[] args) {
